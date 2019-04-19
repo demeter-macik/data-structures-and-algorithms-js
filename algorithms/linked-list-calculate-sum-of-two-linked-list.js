@@ -1,5 +1,5 @@
 // Calculate sum of two linked list
-// Example: 5>2>3 + 6>2>4 = 1>1>4>7
+// Example: 5>2>3 + 6>2>4 = 1147
 
 const { SinglyLinkedList } = require('../data-structures/singly-linked-list.js');
 const { Stack } = require('../data-structures/stack.js');
