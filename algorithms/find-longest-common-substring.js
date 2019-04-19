@@ -1,6 +1,8 @@
 // Find longest common substring
 // https://www.ics.uci.edu/~eppstein/161/960229.html
 
+// Time is O(MN)
+
 function initMatchTable(str1, str2) {
     const array = [];
     for (let i = 0; i <= str1.length; i++) {

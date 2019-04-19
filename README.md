@@ -23,6 +23,8 @@
 ### Linked list
 - [Find middle element](./algorithms/linked-list-find-middle-element-in-the.js)
 - [Find circle](./algorithms/linked-list-find-circle.js)
+- [Remove duplicates](./algorithms/linked-list-remove-duplicates.js)
+- [Calculate sum of two linked lists](./algorithms/linked-list-calculate-sum-of-two-linked-list.js)
 
 ### Sorting
 - [Quicksort](./algorithms/sorting-quicksort.js)

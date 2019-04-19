@@ -45,7 +45,7 @@ class Stack {
     return this.count === 0;
   }
 
-  removeAll(){
+  removeAll() {
     this.count = 0;
     this.storage = {};
   }
@@ -55,3 +55,5 @@ class Stack {
   }
 
 }
+
+module.exports = { Stack };
