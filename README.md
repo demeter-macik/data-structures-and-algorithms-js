@@ -26,6 +26,9 @@
 - [Remove duplicates](./algorithms/linked-list-remove-duplicates.js)
 - [Calculate sum of two linked lists](./algorithms/linked-list-calculate-sum-of-two-linked-list.js)
 
+### String
+- [Reverse](./algorithms/string-reverse.js)
+
 ### Sorting
 - [Quicksort](./algorithms/sorting-quicksort.js)
 - [Bogosort](./algorithms/sorting-bogosort.js)
