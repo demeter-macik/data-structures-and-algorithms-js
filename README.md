@@ -28,6 +28,7 @@
 
 ### String
 - [Reverse](./algorithms/string-reverse.js)
+- [Find all permutations](./algorithms/string-find-all-permutations.js)
 
 ### Sorting
 - [Quicksort](./algorithms/sorting-quicksort.js)
