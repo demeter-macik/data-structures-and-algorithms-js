@@ -29,6 +29,7 @@
 ### String
 - [Reverse](./algorithms/string-reverse.js)
 - [Find all permutations](./algorithms/string-find-all-permutations.js)
+- [Check rotation](./algorithms/string-check-string-rotation.js)
 
 ### Sorting
 - [Quicksort](./algorithms/sorting-quicksort.js)
