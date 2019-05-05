@@ -34,6 +34,7 @@
 ### Sorting
 - [Quicksort](./algorithms/sorting-quicksort.js)
 - [Bogosort](./algorithms/sorting-bogosort.js)
+- [Insert sorting](./algorithms/sorting-insert-linked-list.js)
 
 ### Other
 - [Find first non-repeating character](./algorithms/find-first-non-repeating-character.js)
