@@ -38,4 +38,4 @@
 
 ### Other
 - [Find first non-repeating character](./algorithms/find-first-non-repeating-character.js)
-- [Find longest comman substring](./algorithms/find-longest-common-substring.js)
+- [Find longest common substring](./algorithms/find-longest-common-substring.js)
