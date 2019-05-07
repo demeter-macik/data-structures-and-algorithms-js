@@ -6,6 +6,7 @@
 
 - [Stack](./data-structures/stack.js)
 - [Singly linked list](./data-structures/singly-linked-list.js)
+- [Doubly linked list](./data-structures/doubly-linked-list.js)
 
 ## Algorithms
 
