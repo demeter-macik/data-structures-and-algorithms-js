@@ -1,8 +1,8 @@
 // Calculate sum of two linked list
 // Example: 5>2>3 + 6>2>4 = 1147
 
-const { SinglyLinkedList } = require('../data-structures/singly-linked-list.js');
-const { Stack } = require('../data-structures/stack.js');
+const { SinglyLinkedList } = require('../../data-structures/singly-linked-list.js');
+const { Stack } = require('../../data-structures/stack.js');
 
 function calcLinkedListSize(linkedList) {
   let size = 0;

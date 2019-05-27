@@ -1,6 +1,6 @@
 // Find middle element of linked list
 
-const { SinglyLinkedList } = require('../data-structures/singly-linked-list.js');
+const { SinglyLinkedList } = require('../../data-structures/singly-linked-list.js');
 
 function findMiddleElement(linkedList) {
 

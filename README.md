@@ -4,39 +4,41 @@
 
 ### Linked list
 
-- [Stack](./data-structures/stack.js)
-- [Singly linked list](./data-structures/singly-linked-list.js)
-- [Doubly linked list](./data-structures/doubly-linked-list.js)
+- [Stack](./src/data-structures/stack.js)
+- [Linked list](./src/data-structures/linked-list.js)
+- [Doubly linked list](./src/data-structures/doubly-linked-list.js)
+- [Binary Heap Min](./src/data-structures/binary-heap-min.js)
 
 ## Algorithms
 
 ### Array
 
-- [Check if array has duplicate values](./algorithms/array-check-if-array-has-duplicates.js)
-- [Find pairs of numbers sum of which is equal to the number](./algorithms/array-find-pairs-of-numbers-that-equal-to-number.js)
-- [Reverse array](./algorithms/array-reverse.js)
-- [Find min and max vlaues](./algorithms/find-min-max-values-in-array.js)
+- [Check if array has duplicate values](./src/algorithms/array/check-if-array-has-duplicates.js)
+- [Find pairs of numbers sum of which is equal to the number](./src/algorithms/array/find-pairs-of-numbers-that-equal-to-number.js)
+- [Reverse array](./src/algorithms/array/reverse-array.js)
+- [Find min and max vlaues](./src/algorithms/array/find-min-max-values-in-array.js)
 
 ### Stack
 
-- [Balanced parentheses](./algorithms/stack-balanced-parentheses.js)
+- [Balanced parentheses](./src/algorithms/stack/balanced-parentheses.js)
 
 ### Linked list
-- [Find middle element](./algorithms/linked-list-find-middle-element-in-the.js)
-- [Find circle](./algorithms/linked-list-find-circle.js)
-- [Remove duplicates](./algorithms/linked-list-remove-duplicates.js)
-- [Calculate sum of two linked lists](./algorithms/linked-list-calculate-sum-of-two-linked-list.js)
+- [Find middle element](./src/algorithms/linked-list/find-middle-element.js)
+- [Find circle](./src/algorithms/linked-list/find-circle.js)
+- [Remove duplicates](./src/algorithms/linked-list/remove-duplicates.js)
+- [Calculate sum of two linked lists](./src/algorithms/linked-list/calculate-sum-of-two-linked-lists.js)
 
 ### String
-- [Reverse](./algorithms/string-reverse.js)
-- [Find all permutations](./algorithms/string-find-all-permutations.js)
-- [Check rotation](./algorithms/string-check-string-rotation.js)
+- [Reverse](./src/algorithms/string/reverse-string.js)
+- [Find all permutations](./src/algorithms/string/find-all-permutations.js)
+- [Check rotation](./src/algorithms/string/check-string-rotation.js)
 
 ### Sorting
-- [Quicksort](./algorithms/sorting-quicksort.js)
-- [Bogosort](./algorithms/sorting-bogosort.js)
-- [Insert sorting](./algorithms/sorting-insert-linked-list.js)
+- [Quicksort](./src/algorithms/sorting/quick-sort.js)
+- [Bogosort](./src/algorithms/sorting/bogo-sort.js)
+- [Insert sorting](./src/algorithms/sorting/insert-sort.js)
+- [Heap sort](./src/algorithms/sorting/heap-sort.js)
 
 ### Other
-- [Find first non-repeating character](./algorithms/find-first-non-repeating-character.js)
-- [Find longest common substring](./algorithms/find-longest-common-substring.js)
+- [Find first non-repeating character](./src/algorithms/string/find-first-non-repeating-character.js)
+- [Find longest common substring](./src/algorithms/string/find-longest-common-substring.js)

@@ -1,0 +1,37 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "0.1.0",
+  "description": "## Data structures",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.13"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.13.0",
+    "eslint-plugin-jest": "^22.6.4",
+    "eslint-plugin-react": "^7.13.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.0"
+  },
+  "scripts": {
+    "watch": "./node_modules/.bin/nodemon --watch src --exec npm run test",
+    "test": "./node_modules/.bin/jest ./src/**/*.js",
+    "lint": "./node_modules/.bin/eslint ./src/**/*.js",
+    "lint:fix": "./node_modules/.bin/eslint --fix ./src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demeter-macik/data-structures-and-algorithms-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demeter-macik/data-structures-and-algorithms-js/issues"
+  },
+  "homepage": "https://github.com/demeter-macik/data-structures-and-algorithms-js#readme"
+}
