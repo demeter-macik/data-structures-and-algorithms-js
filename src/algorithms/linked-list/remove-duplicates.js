@@ -1,6 +1,6 @@
 // Remove duplicates in unsorted linked list
 
-const { SinglyLinkedList } = require('../../data-structures/singly-linked-list.js');
+const {SinglyLinkedList} = require('../../data-structures/singly-linked-list.js');
 
 class LinkedList extends SinglyLinkedList {
 
@@ -45,8 +45,8 @@ sll.add(2);
 sll.add(1);
 sll.add(2);
 
-sll.traverse();
+// sll.traverse();
 
 sll.removeDuplicates();
 
-sll.traverse();
+// sll.traverse();

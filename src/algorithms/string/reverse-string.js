@@ -1,18 +1,29 @@
-// Reverse string
+/**
+ * Reverse string implementation
+ */
+class ReverseString extends String {
 
-function reverse1(string) {
-  return Array.from(string).reverse().join('');
-}
-
-console.log(reverse1('abc'));
-
-function reverse2(string) {
-
-  if (string.length === 1) {
-    return string;
+  /**
+   * Reverse string
+   * @param {string} string string
+   * @returns {string} string
+   */
+  static reverse1(string) {
+    return Array.from(string).reverse().join('');
   }
 
-  return reverse2(string.slice(1, string.length)) + string[0];
+  /**
+   * Reverse string
+   * @param {string} string string
+   * @returns {string} string
+   */
+  static reverse2(string) {
+    if (string.length === 1) {
+      return string;
+    }
+    return this.reverse2(string.slice(1, string.length)) + string[0];
+  }
+
 }
 
-console.log(reverse2('abc'));
+module.exports = {ReverseString};

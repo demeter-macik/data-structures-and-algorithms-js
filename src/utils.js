@@ -5,7 +5,7 @@
  * @returns {number} random number
  */
 function randomIndex(start, end) {
-    return Math.round(Math.random() * (end + 1) + (start - 0.5));
+  return Math.round(Math.random() * (end + 1) + (start - 0.5));
 }
 
 /**
@@ -14,17 +14,17 @@ function randomIndex(start, end) {
  * @returns {number[]} randomly sorted array
  */
 function randomlyShuffleArray(array) {
-    const copy = Array.from(array);
-    const sorted = [];
-    while (copy.length > 0) {
-        const index = randomIndex(0, copy.length - 1);
-        const value = copy.splice(index, 1)[0];
-        sorted.push(value);
-    }
-    return sorted;
+  const copy = Array.from(array);
+  const sorted = [];
+  while (copy.length > 0) {
+    const index = randomIndex(0, copy.length - 1);
+    const value = copy.splice(index, 1)[0];
+    sorted.push(value);
+  }
+  return sorted;
 }
 
 module.exports = {
-    randomIndex,
-    randomlyShuffleArray,
+  randomIndex,
+  randomlyShuffleArray,
 };

@@ -135,6 +135,76 @@ class LinkedList {
     return this.toArray().join(', ');
   }
 
+  /**
+   * Check if linked list is empty
+   * @returns {boolean} boolean
+   */
+  isEmpty() {
+    return !this.head;
+  }
+
+  /**
+   * Return head value
+   * @returns {*} value
+   */
+  peek() {
+    return this.head && this.head.value;
+  }
+
+  /**
+   * Compare keys callback
+   * @callback compareCallback
+   * @param {*} key - key
+   * @param {*} value - value
+   * @returns {*} value
+   */
+
+  /**
+   * Find element
+   * @param {*} key key
+   * @param {compareCallback} compareCallback compare callback
+   * @returns {*} value
+   */
+  find(key, compareCallback) {
+    let current = this.head;
+    while (current) {
+      if (compareCallback(key, current.value)) {
+        return current.value;
+      }
+      current = current.next;
+    }
+  }
+
+  /**
+   * Delete element
+   * @param {*} key key
+   * @param {compareCallback} compareCallback compare callback
+   * @returns {*} value
+   */
+  delete(key, compareCallback) {
+    let current = this.head;
+    let previous;
+    while (current) {
+      if (compareCallback(key, current.value)) {
+        if (current === this.head) {
+          this.head = current.next;
+        }
+        if (current === this.tail) {
+          this.tail = previous;
+          if (previous) {
+            delete previous.next;
+          }
+        }
+        if (previous) {
+          previous.next = current.next;
+        }
+        return current.value;
+      }
+      previous = current;
+      current = current.next;
+    }
+  }
+
 }
 
 module.exports = {LinkedList};

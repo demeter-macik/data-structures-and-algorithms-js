@@ -8,6 +8,9 @@
 - [Linked list](./src/data-structures/linked-list.js)
 - [Doubly linked list](./src/data-structures/doubly-linked-list.js)
 - [Binary Heap Min](./src/data-structures/binary-heap-min.js)
+- [Queue](./src/data-structures/queue.js)
+- [Priority Queue](./src/data-structures/priority-queue.js)
+- [Hash Table](./src/data-structures/hash-table.js)
 
 ## Algorithms
 

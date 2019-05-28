@@ -20,9 +20,9 @@
   },
   "scripts": {
     "watch": "./node_modules/.bin/nodemon --watch src --exec npm run test",
-    "test": "./node_modules/.bin/jest ./src/**/*.js",
-    "lint": "./node_modules/.bin/eslint ./src/**/*.js",
-    "lint:fix": "./node_modules/.bin/eslint --fix ./src/**/*.js"
+    "test": "./node_modules/.bin/jest ./src",
+    "lint": "./node_modules/.bin/eslint ./src",
+    "lint:fix": "./node_modules/.bin/eslint --fix ./src"
   },
   "repository": {
     "type": "git",

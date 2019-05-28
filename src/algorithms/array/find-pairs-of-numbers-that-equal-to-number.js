@@ -42,7 +42,7 @@ function findPairs2(array, num) {
 
 console.log(findPairs2(array, num));
 
-//O(NlogN) if we assume that Array.prototype uses QuickSort O(logN)
+// O(NlogN) if we assume that Array.prototype uses QuickSort O(logN)
 function findPairs3(array, num) {
 
   const sorted = array.sort();
