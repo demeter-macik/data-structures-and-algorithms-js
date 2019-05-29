@@ -2,8 +2,6 @@
 
 ## Data structures
 
-### Linked list
-
 - [Stack](./src/data-structures/stack.js)
 - [Linked list](./src/data-structures/linked-list.js)
 - [Doubly linked list](./src/data-structures/doubly-linked-list.js)
