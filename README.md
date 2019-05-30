@@ -9,6 +9,7 @@
 - [Queue](./src/data-structures/queue.js)
 - [Priority Queue](./src/data-structures/priority-queue.js)
 - [Hash Table](./src/data-structures/hash-table.js)
+- [Trie](./src/data-structures/trie.js)
 
 ## Algorithms
 
