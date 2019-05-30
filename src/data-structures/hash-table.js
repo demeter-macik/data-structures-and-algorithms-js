@@ -93,6 +93,18 @@ class HashTable {
       return false;
     }
   }
+
+  /**
+   * Returns keys
+   * @returns {string[]} keys - array of keys
+   */
+  getKeys() {
+    return this.table.reduce((acc, list) => {
+      return acc.concat(list.toArray().map((item) => item.key));
+    }, []);
+  }
 }
 
 module.exports = {HashTable};
+
+

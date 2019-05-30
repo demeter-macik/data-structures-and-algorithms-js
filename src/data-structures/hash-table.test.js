@@ -48,4 +48,12 @@ describe('Hash Table', () => {
     expect(hashTable.has('sss')).toBeFalsy();
   });
 
+  test('should return keys', () => {
+    const hashTable = new HashTable();
+    hashTable.add('a', 1);
+    hashTable.add('b', 1);
+    hashTable.add('c', 1);
+    expect(hashTable.getKeys()).toStrictEqual(['a', 'b', 'c']);
+  });
+
 });
