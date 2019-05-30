@@ -53,12 +53,14 @@ class Node {
 }
 
 /**
- * Trie implementation
+ * Trie implementation.
+ * Position of the node in the tree defines the key.
  */
 class Trie {
 
   /**
    * Add word
+   * O(n) - n is the length of the word
    * @param {string} word - word
    * @throws {Error} `word` should be string
    */
@@ -124,6 +126,7 @@ class Trie {
 
   /**
    * Check if word is in the trie
+   * O(n) - n is the length of the word
    * @param {string} word - word to search
    * @returns {boolean} true is trie has word
    * @throws {Error} `word` should be string
@@ -169,6 +172,15 @@ class Trie {
     // word found!
     return true;
   }
+
+  /**
+   * Delete word from trie
+   * O(n) - n is the length of the word
+   */
+  deleteWord() {
+    throw new Error('not implemented');
+  }
+
 }
 
 module.exports = {Node, Trie};
