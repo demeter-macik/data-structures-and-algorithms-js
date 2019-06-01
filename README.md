@@ -10,6 +10,7 @@
 - [Priority Queue](./src/data-structures/priority-queue.js)
 - [Hash Table](./src/data-structures/hash-table.js)
 - [Trie](./src/data-structures/trie.js)
+- [Binary Search Tree](./src/data-structures/binary-search-tree.js)
 
 ## Algorithms
 
