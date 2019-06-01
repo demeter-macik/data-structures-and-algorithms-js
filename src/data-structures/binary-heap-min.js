@@ -3,9 +3,6 @@
  * Binary heap min implementation
  * Zero based array
  * height of heap is log N
- * peek min O(1)
- * pop min  O(log N)
- * push     O(log N)
  */
 class BinaryHeapMin {
 
@@ -81,6 +78,7 @@ class BinaryHeapMin {
 
   /**
    * Adds value to the heap
+   * Time O(log N)
    * @param {number} value value
    */
   push(value) {
@@ -93,6 +91,7 @@ class BinaryHeapMin {
 
   /**
    * Returns and removes min value from heap
+   * Time O(log N)
    * @returns {number} value
    */
   pop() {
@@ -107,6 +106,7 @@ class BinaryHeapMin {
 
   /**
    * Return min value from heap
+   * Time O(1)
    * @returns {number} value
    */
   peek() {

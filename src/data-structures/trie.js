@@ -8,7 +8,7 @@ class Node {
   /**
    * Constructor
    * @param {string} character - character
-   * @param {boolean} wordEnd - flag indicates if this character is 
+   * @param {boolean} wordEnd - flag indicates if this character is
    * the end of the word
    */
   constructor(character, wordEnd = false) {

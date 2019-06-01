@@ -1,11 +1,16 @@
 /* eslint-disable no-console */
 /**
  * Linked list implementation
+ * delete Time O(1)
+ * get Time O(N)
+ * search Time O(N)
+ * Space O(N)
  */
 class LinkedList {
 
   /**
    * Add to the tail of linked list
+   * Time O(1)
    * @param {object} value - value to store
    */
   append(value) {
@@ -23,6 +28,7 @@ class LinkedList {
 
   /**
    * Add to the head of linked list
+   * Time O(1)
    * @param {object} value - value to store
    */
   prepend(value) {
@@ -78,6 +84,7 @@ class LinkedList {
 
   /**
    * Reverse a linked list
+   * Time O(N)
    */
   reverse() {
 
@@ -145,6 +152,7 @@ class LinkedList {
 
   /**
    * Return head value
+   * Time O(1)
    * @returns {*} value
    */
   peek() {
@@ -161,6 +169,7 @@ class LinkedList {
 
   /**
    * Find element
+   * Time O(N)
    * @param {*} key key
    * @param {compareCallback} compareCallback compare callback
    * @returns {*} value
@@ -177,6 +186,7 @@ class LinkedList {
 
   /**
    * Delete element
+   * Time O(1) ???
    * @param {*} key key
    * @param {compareCallback} compareCallback compare callback
    * @returns {*} value

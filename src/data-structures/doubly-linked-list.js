@@ -1,12 +1,14 @@
 /* eslint-disable no-console */
 /**
  * Doubly linked list implementation
+ * delete Time O(1)
+ * get Time O(N)
+ * search Time O(N)
+ * Space O(N)
  */
 class DoublyLinkedList {
 
-  /**
-   * Constractor
-   */
+  /** */
   constructor() {
     this.head;
     this.tail;
@@ -14,6 +16,7 @@ class DoublyLinkedList {
 
   /**
    * Add value
+   * Time O(1)
    * @param {*} value value
    */
   add(value) {

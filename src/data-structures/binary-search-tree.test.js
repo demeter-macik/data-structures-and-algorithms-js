@@ -1,19 +1,21 @@
-const {BinarySearchTree, comparator} = require('./binary-search-tree.js');
+const {BinarySearchTree} = require('./binary-search-tree.js');
 
 describe('Binary search tree', () => {
 
-  test('should add item', () => {
-    const tree = new BinarySearchTree(comparator);
+  test('should add less smaller to left', () => {
+    const tree = new BinarySearchTree();
+    tree.add(8);
+    expect(tree.toArray()).toStrictEqual([8, [undefined, undefined]]);
     tree.add(1);
-    tree.add(2);
-    tree.add(3);
-    tree.add(4);
-    expect(tree.root.value).toBe(1);
-    expect(tree.root.left.value).toBe(2);
+    expect(tree.toArray()).toStrictEqual([8, [[1, [undefined, undefined]], undefined]]);
+    tree.add(5);
+    expect(tree.toArray()).toStrictEqual([8, [[1, [undefined, [5, [undefined, undefined]]]], undefined]]);
+    tree.add(12);
+    expect(tree.toArray()).toStrictEqual([8, [[1, [undefined, [5, [undefined, undefined]]]], [12, [undefined, undefined]]]]);
   });
 
   test('should check if tree has a number', () => {
-    const tree = new BinarySearchTree(comparator);
+    const tree = new BinarySearchTree();
     tree.add(8);
     tree.add(3);
     tree.add(12);
