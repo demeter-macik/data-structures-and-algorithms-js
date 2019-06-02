@@ -40,7 +40,10 @@ class BinarySearchTree {
     return this.root && this.root.toArray() || [];
   }
 
-  /** */
+  /**
+   * Returns string
+   * @returns {string} string
+   */
   toString() {
     return this.root && this.root.toString() || '';
   }

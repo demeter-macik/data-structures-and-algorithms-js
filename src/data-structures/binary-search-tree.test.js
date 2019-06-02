@@ -7,11 +7,19 @@ describe('Binary search tree', () => {
     tree.add(8);
     expect(tree.toArray()).toStrictEqual([8, [undefined, undefined]]);
     tree.add(1);
-    expect(tree.toArray()).toStrictEqual([8, [[1, [undefined, undefined]], undefined]]);
+    expect(tree.toArray()).toStrictEqual([
+      8, [[1, [undefined, undefined]], undefined],
+    ]);
     tree.add(5);
-    expect(tree.toArray()).toStrictEqual([8, [[1, [undefined, [5, [undefined, undefined]]]], undefined]]);
+    expect(tree.toArray()).toStrictEqual([
+      8, [[1, [undefined, [5, [undefined, undefined]]]], undefined],
+    ]);
     tree.add(12);
-    expect(tree.toArray()).toStrictEqual([8, [[1, [undefined, [5, [undefined, undefined]]]], [12, [undefined, undefined]]]]);
+    expect(tree.toArray()).toStrictEqual([
+      8, [
+        [1, [undefined, [5, [undefined, undefined]]]],
+        [12, [undefined, undefined]],
+      ]]);
   });
 
   test('should check if tree has a number', () => {

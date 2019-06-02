@@ -3,6 +3,12 @@
 
 // Time is O(MN)
 
+/**
+ * Initialize matching table
+ * @param {string} str1 first string
+ * @param {string} str2 second string
+ * @returns {object[]} array
+ */
 function initMatchTable(str1, str2) {
   const array = [];
   for (let i = 0; i <= str1.length; i++) {
@@ -15,6 +21,12 @@ function initMatchTable(str1, str2) {
   return array;
 }
 
+/**
+ * Adds title
+ * @param {string} str1 - first string
+ * @param {string} str2 - second string
+ * @returns 
+ */
 function addTitles(str1, str2, table) {
   table.unshift(['-', ...str2, '-']);
   for (let i = 1; i < table.length; i++) {
@@ -52,7 +64,7 @@ function getLongestCommonString(str1, str2) {
         longestStr += str1[i];
         i++;
         j++;
-      } else if ((table[i + 1][j] >= table[i][j + 1]) && i < str1.length-1) {
+      } else if ((table[i + 1][j] >= table[i][j + 1]) && i < str1.length - 1) {
         i++;
       } else {
         j++;
